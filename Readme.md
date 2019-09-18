@@ -75,9 +75,9 @@ This figure shows the training history of the discriminator, the **blue curve** 
 
 ## Reference
 ---
-####paper
+#### paper
 - [GAN](https://arxiv.org/abs/1406.2661)
 - [infoGAN](https://arxiv.org/abs/1606.03657)
 
-####code
+#### code
 - [G and D in tensorflow-generative-model-collection](https://github.com/hwalsuklee/tensorflow-generative-model-collections/blob/master/GAN.py)
