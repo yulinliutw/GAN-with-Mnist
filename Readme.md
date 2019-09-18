@@ -57,21 +57,21 @@ python eval.py
 - The training history -- Real/fake predict loss :   
 This figure shows the training history of the discriminator, the **blue curve** shows how many % prediction is fail(predict it as fake) when input the real image, the **orange curve** shows how many % prediction is fail(predict it as real) when input the fake image. We can see that the discriminator have better performance in the early epoch, but after 10 epoch, the loss become higher, that's because the generator is begin to know how to synthetic the meaningful image, so the discriminator is confuse with some input, it doesn't really know it come from real.  
 
-<p align="center"><img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" " height='230px' width='230px'></p>
+<p align="center"><img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/real_fake_loss.png" alt=" " height='230px' width='230px'></p>
 
 - The training history -- GAN/Dis loss :	
   This figure shows the training history of the generator and discriminator, the loss curve is caculate by the loss function which using in training. We can see the converge tendency the GAN, two model will find the balance finally.
   
-<p align="center"><img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" "  height='230px' width='230px'></p>
+<p align="center"><img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/gan_loss.png" alt=" "  height='230px' width='230px'></p>
 
 - The training history -- synthetic result durning each epoch(5,10,20,40) : 
 
 |         | Result          | 
 | ------------- |:-------------:| 
-| **Epoch5**     |  <img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" "  height='230px' width='230px'> | 
-| **Epoch10**   |  <img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" "  height='230px' width='230px'> |  
-| **Epoch20**  |  <img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" "  height='230px' width='230px'>| 
-| **Epoch40**  |  <img src="https://github.com/yulinliutw/Basic-GAN-with-Mnist/blob/master/doc/result.png" alt=" "  height='230px' width='230px'>| 
+| **Epoch5**     |  <img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/epoch5.png" alt=" "  height='230px' width='230px'> | 
+| **Epoch10**   |  <img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/epoch10.png" alt=" "  height='230px' width='230px'> |  
+| **Epoch20**  |  <img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/epoch20.png" alt=" "  height='230px' width='230px'>| 
+| **Epoch40**  |  <img src="https://github.com/yulinliutw/GAN-with-Mnist/blob/master/doc/epoch40.png" alt=" "  height='230px' width='230px'>| 
 
 ## Reference
 ---
